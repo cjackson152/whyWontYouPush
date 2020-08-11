@@ -12,6 +12,10 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
     "start": "node server/server.js",
     "build": "react-scripts build",
