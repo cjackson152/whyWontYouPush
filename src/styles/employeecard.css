@@ -1,0 +1,15 @@
+tr {
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+td{
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: yellow;
+    
+    }
