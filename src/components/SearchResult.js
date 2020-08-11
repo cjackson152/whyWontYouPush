@@ -3,8 +3,7 @@ import SearchBar from "./SearchBar";
 import Employees from "./Employees";
 import API from "../utils/API";
 import "../styles/directory.css";
-//import { render } from "react-dom";
-//const maxResults = 10;
+
 
 class SearchResult extends Component {
     state = {
@@ -36,9 +35,7 @@ componentDidMount() {
 }
 
 filterEmployees = (searchkey) => {
-    console.log("***in filter***");
-    console.log(searchkey);
-    console.log(this.state.result);
+   
     let filterResult = this.state.result.filter(person => person.firstName === searchkey)
     this.setState({
         result:filterResult
